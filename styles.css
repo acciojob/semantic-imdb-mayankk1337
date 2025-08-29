@@ -1,2 +1,55 @@
+body{
+	font-family:sans-serif;
+	padding:10px;
+}
 
-/* Your CSS Code here. */
+header{
+	background:black;
+	color:lightgrey;
+	text-align:center;
+}
+nav{
+	background:green;
+	
+}
+
+nav ul{
+	  list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+}
+
+nav a{
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+}
+
+nav a:hover{
+	color:yellow;
+}
+
+summary{
+	background:red;
+	padding:10px;
+	border-radius:8px;
+}
+section{
+	padding:20px;
+	margin:20px;
+	background:white;
+	color:black;
+	border-radius:8px;
+}
+aside{
+	  padding: 10px;
+      margin: 20px;
+      background: grey;
+      border-radius: 8px;
+}
+footer{
+	background:grey;
+	padding:15px;
+	color:white;
+}
